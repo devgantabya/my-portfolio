@@ -1,9 +1,16 @@
 import React from "react";
+import Banner from "./../../Components/Banner/Banner";
+import About from "./../../Components/About/About";
+import Skills from "./../../Components/Skills/Skills";
+import Projects from "./../../Components/Projects/Projects";
 
 const Home = () => {
   return (
     <div>
-      <h1>Home page</h1>
+      <Banner />
+      <About />
+      <Skills />
+      <Projects />
     </div>
   );
 };
