@@ -5,7 +5,7 @@ const Banner = () => {
   return (
     <section
       id="home"
-      className="pt-10 pb-20 max-w-7xl mx-auto px-4 flex flex-col md:flex-row items-center justify-between"
+      className="pt-20 pb-20 max-w-7xl mx-auto px-4 flex flex-col md:flex-row items-center justify-between"
     >
       <div>
         <h1 className="text-4xl md:text-6xl font-bold text-gray-900 dark:text-white leading-tight">
@@ -44,7 +44,7 @@ const Banner = () => {
         <img
           src={myImage}
           alt="Developer Gantabya"
-          className="relative w-[300px] md:w-[400px] drop-shadow-xl"
+          className="relative w-[300px] md:w-[400px] drop-shadow-xl rounded-full"
         />
       </div>
     </section>

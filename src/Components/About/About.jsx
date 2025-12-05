@@ -1,12 +1,11 @@
 import React from "react";
-import myImg from "../../assets/Profile.png";
+import AboutImg from "../../assets/About-img.png";
 
 const About = () => {
   return (
-    <section className="py-20 bg-gray-50 dark:bg-gray-900" id="about">
+    <section className="py-10 md:py-20 bg-gray-50 dark:bg-gray-900" id="about">
       {" "}
-      <div className="container mx-auto px-6 md:px-12 lg:px-24 flex flex-col-reverse md:flex-row items-center gap-12">
-        ```
+      <div className="container mx-auto px-4 flex flex-col-reverse md:flex-row items-center gap-12">
         {/* Text Section */}
         <div className="md:w-1/2">
           <h2 className="text-4xl font-bold text-gray-900 dark:text-white mb-4">
@@ -30,11 +29,11 @@ const About = () => {
             Contact Me
           </a>
         </div>
-        <div className="md:w-1/2 flex justify-center">
+        <div className="md:w-1/2 hidden md:flex justify-center">
           <img
-            src="/your-Profile-image.jpg"
-            alt="Prottoy"
-            className="rounded-full w-64 h-64 object-cover shadow-lg"
+            src={AboutImg}
+            alt="About Gantabya"
+            className="rounded-xl w-full h-full object-cover shadow-lg"
           />
         </div>
       </div>

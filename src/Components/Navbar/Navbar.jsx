@@ -7,16 +7,16 @@ const Navbar = () => {
   return (
     <nav className="fixed top-0 left-0 w-full z-50 bg-white/80 dark:bg-gray-900/80 backdrop-blur shadow-sm">
       <div className="max-w-7xl mx-auto px-4 py-3 flex items-center justify-between">
-        <Link
-          to={"/"}
+        <a
+          href="#home"
           className="text-2xl font-bold text-gray-900 dark:text-white"
         >
           DevGantabya
-        </Link>
+        </a>
 
         <ul className="hidden md:flex items-center gap-8 text-gray-600 dark:text-gray-300 font-medium">
           <li className="hover:text-blue-500 dark:hover:text-blue-400 transition">
-            <Link to={"/"}>Home</Link>
+            <a href="#home">Home</a>
           </li>
           <li className="hover:text-blue-500 dark:hover:text-blue-400 transition">
             <a href="#about">About</a>
